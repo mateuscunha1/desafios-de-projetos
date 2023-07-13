@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+</head>
+<body>
+    <h1 id="inicio"><u>História da web até HTML</u></h1>
+    <hr>
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#historia">História da Web</a></li>
+        <li><a href="#clients">O que são Clients</a></li>
+        <li><a href="#servers">O que são Servers</a></li>
+        <li><a href="#linguagens">Linguagens de Programação</a></li>
+        <li><a href="#html">HTML na Prática</a>
+            <ul>
+                <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+                <li><a href="#tags">Tags</a></li>
+                <li><a href="#atributos">Atributos</a></li>
+                <li><a href="#listas">Listas</a></li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <h2 id="historia"><u>História da Web</u></h2>
+    <p>A história da web começa com o surgimento dos primeiros computadores. A primeira máquina eletrônica programável foi criada em 1937 por John Atanasoff e Clifford Berry. Em 1941, Konrad Zuse criou o primeiro computador eletromecânico. Em 1945, John von Neumann propôs a arquitetura de um computador que se tornou a base para a maioria dos computadores modernos.</p>
+
+    <p>A World Wide Web (WWW) foi inventada no CERN (Centro Europeu para Física Nuclear) por Tim Berners-Lee no período de 1989 a 1991. Berners-Lee e seus companheiros desenvolveram versões iniciais de HTML, HTTP, um servidor web e um Browser. O primeiro servidor web e o primeiro navegador web gráfico foram criados em 1990 por Tim Berners-Lee enquanto trabalhava no CERN. Ele batizou sua nova janela para a internet de "WorldWideWeb".</p>
+        
+    <p>Grandes nomes que contribuíram para o desenvolvimento da web incluem Tim Berners-Lee, Robert Cailliau, Marc Andreessen, Eric Bina e muitos outros.</p>
+    <br>
+    <h2 id="clients"><u>O que são Clients</u></h2>
+    <p>Clients são entidades que solicitam e recebem serviços de outras entidades, chamadas de servers. No contexto da web, os clients são geralmente os navegadores, as aplicações web e os dispositivos móveis que acessam conteúdos e funcionalidades oferecidos pelos servers.
+
+    <p>Os navegadores são programas de software que permitem aos usuários visualizar e interagir com páginas web. Eles são responsáveis por enviar requisições HTTP aos servers e renderizar as respostas em HTML, CSS e JavaScript. Alguns exemplos de navegadores são Google Chrome, Mozilla Firefox, Microsoft Edge e Safari.</p>
+        
+    <p>As aplicações web são programas que rodam dentro dos navegadores e oferecem funcionalidades específicas aos usuários. Elas podem ser acessadas por meio de URLs <i>(Uniform Resource Locators)</i> e não precisam ser instaladas no computador ou no dispositivo móvel. Alguns exemplos de aplicações web são Gmail, Facebook, YouTube e Twitter.</p>
+        
+    <p>Os dispositivos móveis são aparelhos portáteis que permitem aos usuários acessar a internet por meio de redes sem fio. Eles podem ter navegadores integrados ou aplicativos dedicados para acessar determinados serviços web. Alguns exemplos de dispositivos móveis são smartphones, tablets, smartwatches e laptops.</p>
+    <br>
+    <h2 id="servers"><u>O Que são Servers</u></h2>
+    <p>Servers, ou servidores, são computadores que fornecem serviços ou recursos para outros computadores, chamados de clientes, em uma rede. Os servidores podem ter diferentes funções, dependendo do tipo de serviço que oferecem. Por exemplo, um servidor web hospeda sites e permite que os clientes acessem esses sites através de um navegador. Um servidor de e-mail envia e recebe mensagens eletrônicas dos clientes. Um servidor de arquivos armazena e compartilha arquivos entre os clientes.</p>
+
+    <p>Os servidores precisam de hardware e software específicos para desempenhar suas tarefas. O hardware de um servidor geralmente é mais potente e robusto do que o de um computador comum, pois precisa lidar com uma grande demanda de solicitações dos clientes. O hardware de um servidor pode incluir processadores, memórias, discos rígidos, placas de rede, fontes de alimentação e sistemas de refrigeração. O software de um servidor pode incluir sistemas operacionais, aplicativos, bancos de dados, protocolos e ferramentas de segurança.</p>
+        
+    <p>Existem diferentes tipos de servidores, que podem ser classificados de acordo com o tipo de serviço que oferecem, o tipo de hardware que utilizam ou o tipo de hospedagem que possuem.</p>
+    <br>
+    <h2 id="linguagens"><u>Linguagens de Programação</u></h2>
+    <p>Linguagens de programação são sistemas de símbolos e regras que permitem criar instruções para que um computador execute determinadas tarefas. Existem diferentes tipos de linguagens de programação, cada uma com suas vantagens e desvantagens, e que podem ser usadas para diferentes fins.</p>
+
+    <p>Uma forma de classificar as linguagens de programação é pela forma como elas interagem com o navegador web, que é o programa que permite acessar páginas e aplicativos na internet. Nesse sentido, podemos falar de linguagens server-side e client-side.</p>
+        
+    <p>As linguagens server-side são aquelas que rodam no servidor, ou seja, no computador que hospeda o site ou o aplicativo. Elas são responsáveis por gerenciar os dados, a lógica e a segurança da aplicação. Alguns exemplos de linguagens server-side são PHP, Python, Ruby e Java.</p>
+        
+    <p>As linguagens client-side são aquelas que rodam no navegador do usuário, ou seja, no computador que acessa o site ou o aplicativo. Elas são responsáveis por criar a interface gráfica, os efeitos visuais e a interatividade da aplicação. Alguns exemplos de linguagens client-side são JavaScript, CSS e HTML.</p>
+        
+    <p>HTML é uma sigla para HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto. Ela é usada para definir a estrutura e o conteúdo das páginas web, usando tags que indicam os elementos como títulos, parágrafos, imagens, links, etc.</p>
+    <br>
+    <h2 id="html"><u>HTML na Prática</u></h2>
+    <ol>
+        <li><h3 id="estrutura">Estrutura básica do HTML</h3>
+
+        <p>A estrutura básica do html é formada por três partes principais: o doctype, o head e o body. O doctype declara o tipo de documento html que estamos usando, e deve ser a primeira linha do código. O head contém informações sobre a página, como o título, os metadados, os estilos e os scripts. O body contém o conteúdo visível da página, como textos, imagens, links, tabelas, formulários etc.</p></li>
+        <br>
+        <li><h3 id="tags">Tags</h3>
+        <p>O HTML é composto por elementos chamados de tags, que são escritos entre sinais de menor e maior (<code><</code> e <code>></code>). As tags definem o conteúdo e o layout da página, e podem ter atributos que especificam propriedades adicionais. Cada tag tem uma tag de abertura e uma tag de fechamento, que indicam onde o elemento começa e termina. Por exemplo, a tag <code>< p ></code> cria um parágrafo, e deve ser fechada com <code>< /p ></code>. Algumas tags são auto-fechadas, ou seja, não precisam de uma tag de fechamento. Por exemplo, a tag <code>< img ></code> insere uma imagem na página, e pode ter atributos como src (fonte da imagem) e alt (texto alternativo).</p></li>
+        <br>
+        <li><h3 id="atributos">Atributos</h3>
+        <p>Os atributos HTML são palavras especiais que modificam o funcionamento ou a aparência de um elemento HTML. Eles são usados dentro das tags de abertura dos elementos, separados por espaços. Cada atributo tem um nome e um valor. Alguns atributos são globais, ou seja, podem ser usados em qualquer elemento, como o atributo class, que define uma classe CSS para o elemento. Outros atributos são específicos para certos elementos, como o atributo src, que define a URL de uma imagem ou de um script. Os atributos HTML podem melhorar a acessibilidade, a semântica e a funcionalidade da página web.</p></li>
+        <br>
+        <li><h3 id="listas">Listas</h3>
+        <p>As listas HTML são elementos que permitem organizar e exibir informações de forma estruturada e hierárquica. Existem três tipos principais de listas HTML: ordenadas, não ordenadas e de definição. As listas ordenadas usam a tag <code>< ol ></code> e mostram os itens em uma sequência numérica, alfabética ou romana. As listas não ordenadas usam a tag <code>< ul > </code> e mostram os itens com símbolos como círculos, quadrados ou discos. Em todos os tipos de listas, cada item é representado pela tag <code>< li ></code>, que significa lista de itens.</p></li>
+    </ol>
+    <hr>
+    <p align="center"><a href="#inicio"><b>(Voltar)</b></a></p>
+    <hr>
+</body>
+</html>
